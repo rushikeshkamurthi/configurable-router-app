@@ -1,0 +1,25 @@
+
+.sidebar-main-container {
+    height: 100%;
+}
+.sidebar-route {
+    width: 100%;
+    height: 40px;
+  }
+  .text {
+    color: #050000; /* White text color */
+    text-decoration: none;
+  }
+  .sidebard-header-text {
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    padding-left:10px;
+  }
+  .sidebar-sub-route {
+    width: 100%;
+    height: 40px;
+
+
+  }
+  

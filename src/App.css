@@ -1,11 +1,20 @@
-.App {
-  text-align: center;
+.app-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar-container {
+  width: 300px; 
 }
+
+.main-container {
+  flex-grow: 1;
+  background-color: #ecd4e4;
+  padding: 20px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
